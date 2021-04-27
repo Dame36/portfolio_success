@@ -1,0 +1,118 @@
+body {
+  background-color: #EAEFF9;
+  font-family: "Acme", sans-serif;
+  overflow-x: hidden;
+}
+
+
+#main {
+  min-height: calc(100vh - 10%);
+}
+.container {
+  padding: 0;
+}
+
+.navbar {
+  height: 10%;
+  z-index: 10;
+}
+
+
+.navbar-nav .dropdown-menu {
+  position: relative;
+  width: 100%;
+}
+.dropdown-menu {
+  position: relative;
+  width: 100%;
+  background-color: #ABBDEE;
+}
+
+#navbar,
+#navbar span,
+#navbar a {
+  font-family: "Original Surfer", cursive;
+  background-color: #ABBDEE;
+  color: #fcedbe;
+}
+
+.modal-content {
+  background-color:  #fae196;
+}
+
+.carousel-control-next-icon{
+  background-color: #fcedbe;
+}
+
+.carousel-control-prev-icon{
+  background-color: #fcedbe;
+}
+
+.navbar-toggler {
+  background-color: #ABBDEE !important;
+  color: #ABBDEE !important;
+}
+
+.dropdown-item {
+  background-color: transparent !important;
+  color: #fcedbe !important;
+}
+
+.bi,
+.modal-title {
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+
+#cross {
+  font-size: 2rem;
+  background-color: transparent;
+  border: 0;
+}
+
+.nav-pills .nav-link {
+  color: #fac240;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fcedbe;
+  background-color: #fac240;
+}
+
+@media (min-width: 576px) {
+  #aboutme-photo {
+    border-radius: 50%;
+  }
+  .poster {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  /* #typing {
+    margin: 1rem auto !important;
+  } */
+  .carousel {
+    max-width: 60%;
+  }
+  #academy {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #aboutme-photo {
+    width: 50%;
+  }
+  .carousel {
+    max-width: 50%;
+  }
+  #academy {
+    max-width: 60%;
+  }
+  .poster {
+    width: 50% !important;
+  }
+}
